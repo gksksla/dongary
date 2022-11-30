@@ -11,7 +11,7 @@
 
 ?>
 
-
+<!--게시글 내용을 작성한후 writePost.php로 이동-->
 <form action="writePost.php" method="post"> 
     <input type="hidden" name="idx" value="<?=$idx?>">
     <table width=800 border="1" cellpadding=5 >

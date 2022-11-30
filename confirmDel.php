@@ -8,7 +8,7 @@
 
 ?>
 
-
+<!--idx번 게시물을 삭제할건지 경고창을 띠웁니다-->
 <form action="del.php" method="post"> 
     <input type="hidden" name="idx" value="<?=$idx?>">
     <table width=800 border="1" cellpadding=5 >

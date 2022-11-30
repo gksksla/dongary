@@ -1,6 +1,6 @@
-<?
+<?php
     include "lib.php";
-
+    include "view.php";
 ?>
 
 
@@ -28,6 +28,6 @@
 <? } ?>
 
 </table>
-
+<!--게시글 리스트 목록을 보여줍니다-->
 
 <a href="write.php">글쓰기</a>

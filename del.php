@@ -12,8 +12,8 @@
     $query = "select * from sing_board where idx='$idx' and pwd=password('$pwd') ";
     $result = mysqli_query($connect, $query);
     $data = mysqli_fetch_array($result); 
-
-    if(!$data[idx]){
+    
+    if(!$data[idx]){ 
         echo "
         <script>
         alert('비밀번호가 달라 삭제가 불가능합니다.');
@@ -29,6 +29,7 @@
     mysqli_query($connect, $query); 
 
 ?>
+<!--비밀번호가 다를경우 경고창을 띄운다-->
 <script>
     location.href='list.php';
 </script>

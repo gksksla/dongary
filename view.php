@@ -10,7 +10,7 @@
      
 ?>
 
-
+<!--writePost.php로 이동-->
 <form action="writePost.php" method="post"> 
     <table width=800 border="1" cellpadding=5 >
     <tr>
